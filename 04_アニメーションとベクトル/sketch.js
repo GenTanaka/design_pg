@@ -27,7 +27,7 @@ function draw() {
 
         if (vecLocation[i].x > width || vecLocation[i].x < 0) {
             vecVelocity[i].x *= -1;
-            color[i] = [random(255), random(255), random(255)]
+            color[i] = [random(255), random(255), random(255)];
             size[i] += random(-10,10);
         }
 
